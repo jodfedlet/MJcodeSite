@@ -1,34 +1,12 @@
 <?php
 include 'adm-head.php';
-include_once'../Includes/connection.php';
+include_once'../MJcode.php';
 
   if(isset($_POST['login'])){
     $email = $_POST['email'];
     $pswd = $_POST['password'];
-
-    if (empty($pswd) || empty($user)) {
-       echo "<script>alert('Please, fill the blank space')</script>";
-    }
-    else{
-      $pswd = md5($pswd);
-      $sql = "SELECT name, email, password FROM Users WHERE email = '$email' AND  password = '$pswd'";
-      $res = mysqli_query($connect, $sql);
-      if (mysqli_num_rows($res)  == 0) {
-          echo "<script>alert('Login not found')</script>";
-          header("Location: index.php");
-      }
-      else{
-        $row = mysqli_fetch_array($res);
-        if ($row['password'] == $pswd) {
-          session_start();
-          $_SESSION['username'] = $user;
-          $_SESSION['name'] = $row['name'];
-          $_SESSION['password'] = $row['password'];
-          header('Location: adm.php');
-        }
-      }
-    }
-    
+    $mjcode = new MJcode();
+    $mjcode->selectUser($email, $pswd);
   }
 
 ?>
@@ -40,13 +18,13 @@ include_once'../Includes/connection.php';
               <form id="log" action="" method="post" enctype="multipart/form-data">
               <h1 class="text-center">Log In</h1>
                 <div class="form-group">
-                  <label>Username</label>
-                  <input type="text" class="form-control" placeholder="Enter your Username" name="username">
+                  <label>Email</label>
+                  <input type="email" class="form-control" placeholder="Enter your Username" name="email" required>
                 </div>
 
                 <div class="form-group">
                   <label>Password</label>
-                  <input type="password" class="form-control" placeholder="Enter your Password" name="password">
+                  <input type="password" class="form-control" placeholder="Enter your Password" name="password" required>
                 </div>
                 <button class="btn btn-success btn-block" type="submit" name="login">Login</button>
 

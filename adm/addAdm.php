@@ -46,7 +46,7 @@ if (isset($_POST['create_adm'])) {
 
       $query = "SELECT email FROM add_adm WHERE email = '$email' OR username = '$username'";
       $resp = mysqli_query($connect, $query);
-
+      $_SESSION
       if (mysqli_num_rows($resp) > 0) {
           $ans = mysqli_fetch_array($resp);
           if($ans['email'] == $email) {

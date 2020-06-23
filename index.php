@@ -1,8 +1,6 @@
 <?php
-include_once'Includes/connection.php';
 include_once'MJcode.php';
 include_once'Includes/header.php';
-$Count_NameErr = $Count_emailErr = $CountMessErr = 0;
 
 if (isset($_POST['Send'])) {
     $name = trim(addslashes($_POST['name']));
@@ -11,8 +9,8 @@ if (isset($_POST['Send'])) {
     $phone = trim(addslashes($_POST['phone']));
     $date = date("Y-m-d h:i:s");
 
-    $mjcode = new MJcode($name, $email, $message, $phone, $date);
-    if($mjcode->insertContact()){
+    $mjcode = new MJcode();
+    if($mjcode->insertContact($name, $email, $message, $phone, $date)){
         echo "<script>alert('Votre message est envoyé avec succès)</script>";
     }
 }

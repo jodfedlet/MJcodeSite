@@ -30,7 +30,7 @@
 				<ul class="nav nvbar navbar-right">
 					<?php
 					session_start();
-					if(isset($_SESSION['username']) && isset($_SESSION['name'])){
+					if(isset($_SESSION['name'])){
 					$variavel = $_SESSION['name'] ;
 					$variavel.= " <a href='logout.php'><ion-icon name='return-right' id='addAdm'></ion-icon></a>";
 					}else{

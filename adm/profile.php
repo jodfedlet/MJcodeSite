@@ -1,8 +1,10 @@
 <?php
 include 'adm-head.php';
+if($_SESSION['name'] != null){
 ?>
 
-<div class="container-fluid text-center">
+
+    <div class="container-fluid text-center">
 <div class="row">
     <div class="col-xs-12 col-sm-5 col-md-5">
 
@@ -37,5 +39,8 @@ include 'adm-head.php';
 
 
 <?php
-	include_once 'footer.php';
+}else{
+    header("Location: index.php");
+}
+include_once 'footer.php';
 ?>
