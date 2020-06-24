@@ -14,6 +14,7 @@
 
             <textarea type="text" class="form-control" id="exampleFormControlTextarea1" name="message" rows="3" placeholder="Message" required></textarea>
 
+           <!--  <div class="g-recaptcha" data-sitekey="6LdL_qgZAAAAACguvZaTE3GihUqlRoxcYqBqWJdz"</div>-->
             <br><button type="submit" class="btn btn-success btn-contact" data-dismiss="modal" name="Send">Envoyer</button>
          </form>
       </div>

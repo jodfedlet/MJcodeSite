@@ -17,10 +17,8 @@ list($response,$page) = $MJcode->getContacts();
 							      	 <th scope="col">ID<a href="?order=id&sort=asc">&and;</a><a href="?order=id&sort=desc">&or;</a></th>
 			    <th scope="col">NAME<a href="?order=name&sort=asc">&and;</a><a href="?order=name&sort=desc">&or;</a></th>
 			    <th scope="col">EMAIL<a href="?order=email&sort=asc">&and;</a><a href="?order=email&sort=desc">&or;</a></th>
-			    <th scope="col">SERVICE<a href="?order=service&sort=asc">&and;</a><a href="?order=service&sort=desc">&or;</a></th>
 			     <th scope="col">MESSAGE<a href="?order=message&sort=asc">&and;</a><a href="?order=message&sort=desc">&or;</a></th>
 			     <th scope="col">DATE<a href="?order=clock&sort=asc">&and;</a><a href="?order=clock&sort=desc">&or;</a></th>
-			     <th scope="col">IP<a href="?order=CLiente_IP&sort=asc">&and;</a><a href="?order=CLiente_IP&sort=desc">&or;</a></th>
 			    <th scope="col">OPTION</th>
 							      </tr>
 							    </thead><br>

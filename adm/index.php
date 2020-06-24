@@ -1,14 +1,10 @@
 <?php
 include 'adm-head.php';
 include_once'../MJcode.php';
-
   if(isset($_POST['login'])){
-    $email = $_POST['email'];
-    $pswd = $_POST['password'];
     $mjcode = new MJcode();
-    $mjcode->selectUser($email, $pswd);
+    $mjcode->selectUser($_POST);
   }
-
 ?>
 
         <div class="container-fluid bg">

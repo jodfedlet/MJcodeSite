@@ -27,12 +27,14 @@ class MJcode{
         $stmt->bindValue(3,$message);
         $stmt->bindValue(4,$phone);
         $stmt->bindValue(5,$clock);
+        $Capcha = new Captcha();
         return $stmt->execute();
     }
 
-    public function selectUser($email, $pswd)
+    public function selectUser($dados)
     {
-        $pswd = md5($pswd);
+        $email = $dados['email'];
+        $pswd = md5($dados['password']);
         $query = "SELECT name, email, password FROM users WHERE email = '$email' AND  password = '$pswd'";
         $stmt = MJcode::getConnection()->prepare($query);
         $stmt->execute();
