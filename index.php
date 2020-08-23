@@ -28,6 +28,7 @@ if (isset($_POST['Send'])) {
 	include_once'Includes/team.php';
 	include_once'Includes/hiring.php';
 	include_once'Includes/projects.php';
+	include_once'Includes/ourWork.php';
 	include_once'Includes/contact.php';
 	include_once'Includes/footer.php';
 ?>

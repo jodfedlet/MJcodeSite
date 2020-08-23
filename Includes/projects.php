@@ -1,7 +1,7 @@
 
 <div class="container">
   <div class="col-md-12 text-center">
-    <h3 class="heading head"></h3>
+    <h3 class="heading head"> Prix</h3>
     <div class="heading-underline"></div>
   </div>
   <div class="row">
