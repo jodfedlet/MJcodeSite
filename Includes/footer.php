@@ -7,7 +7,7 @@
         <a href="https://www.youtube.com/c/MJcode?sub_confirmation=1" target="_blank" title="Abonnez-vous a notre Chaine Youtube"><i class="fab fa-youtube"></i></a>
       </div>
         <div class="copyright">
-          <a class=" text-white">Copyright &COPY; MJcode - All rights reserved</a>
+          <a class=" text-white">Copyright &COPY; Powered by MJcode - All rights reserved</a>
         </div>
     </footer>
     <!--  -->

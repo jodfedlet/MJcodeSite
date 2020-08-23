@@ -7,6 +7,11 @@ body{
   color: #505962;
 }
 
+:root {
+  --primary-color: #8B0000;
+  --secondary-color: #545454;
+}
+
   
 /** Loader**/
 .loader-wrapper{
@@ -200,7 +205,7 @@ body{
 
 /*==========About page=============*/
 .about-section{
-  background: url('public/img/logheader.png') no-repeat left;
+  background: url('../img/logheader.png') no-repeat left;
   background-size: 50%;
   overflow: hidden;
   padding: 4% 0;
@@ -388,15 +393,6 @@ h2 .dixplay-3{
   width: 60%;
 }
 
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .icon-service:hover{
 transition: 0.5s;
 width:60%;
@@ -435,86 +431,6 @@ width:60%;
   background: #696969;
   border: 2px solid #8B0000;
 }
-/*Project section**/
-
-.sectionDefault {
-  margin: 5%;
-}
-.box{
-  position: relative;
-  width:100%;
-  height:400px;
-  overflow:hidden;
-  border-radius: 10px;
-  background: #d6dee6;
-  box-shadow: 0 5px 15px rgba(0,0,0,.5);
-  transition:.5s;
-}
-.box:hover{
-  transform: translateY(-30px);
-  box-shadow: 0 50px 50px rgba(0,0,0,.5);
-}
-
-.box .imgBox{
-  position: relative;
-  width: 100%;
-}
-
-.box .imgBox img{
-  width: 100%;
-  transition:.5s;
-}
-
-.box:hover .imgBox img{
-  opacity:.5s;
-  transform:translateY(-40px);
-}
-
-
-
-
-
-
-.box .content{
-  position: absolute;
-  bottom:0;
-  left: 0;
-  padding: 20px;
-  box-sizing:border-box;
-  transition:.5s;
-  opacity: 0;
-}
-.box:hover .content{
-  opacity:1;
-}
-
-.box .content h3{
-  font-size: 25px;
-  background-color: #8B0000;
-  color: #ebebeb;
-  font-weight:100;
-  padding: 0.5rem;
-  text-transform:capitalize;
-  text-align: center;
-  border-radius: 20%;
-}
-.box .content p{
-  font-size: 18px;
-  color:#2b2a2a;
-  font-weight:400;
-}
-.box .content .btnD{
-  border:none;
-  background: #505962;
-  color: #fff;
-  font-size: 20px 20px;
-  font-weight: 700;
-  transition:.5s;
-}
-.box .content .btnD:hover{
-background: #1bfeeb;
-color:#696969;
-}
 
 /*--- Features---*/
 .jumbotron{
@@ -532,16 +448,13 @@ h3.heading{
 .heading-underline{
   width: 5rem;
   height: .2rem;
-  background-color: #8B0000;
+  background-color: var(--primary-color);
   margin:0 auto 1.5rem;
 
 }
 
 /*Our Team*/
-#ourteam{
-  background-image: url('../public/img/computers.png');
-  /* z-index: -1; */
-}
+
 .dark{
   background-color: rgba(0,0,0,0.75);
   color: white;
@@ -694,6 +607,57 @@ transform: scale(1.5);
 padding-left: 8px;
 }
 
+/* pricing table   */
+
+.demo,h4{
+  padding:30px 0;
+}
+.pricingTable,h4{
+  text-align:center;
+}
+h4{color:#444;
+}
+.pricingTable{
+  background:#fff;
+  border-radius:10px;
+  overflow:hidden;
+  position:relative;
+  transition:all .3s ease 0s;
+}
+.pricingTable:hover{box-shadow:0 0 5px rgba(0,0,0,.8) inset,0 0 10px rgba(0,0,0,.8);
+}
+.pricingTable svg{display:block;
+  margin-left:-1px;
+}
+.pricingTable .pricing-content{padding:50px 0 30px;position:relative;
+}
+.pricingTable .title{
+  font-size:35px;
+  font-weight:600;
+  color:#ae003d;text-transform:uppercase;margin:0 0 10px;
+}
+.pricingTable .pricing-content ul{
+  padding:0;
+  margin:0 0 30px;
+}
+.pricingTable .pricing-content p{
+  font-size:18px;
+  color:rgba(0,0,0,.3);
+  text-transform:capitalize;
+}
+.pricingTable .pricingTable-signup{display:inline-block;padding:8px 50px;background:#ae003d;border-radius:20px;font-size:20px;font-weight:600;color:#fff;text-transform:uppercase;position:relative;transition:all .3s ease 0s}
+.pricingTable:hover .pricingTable-signup{box-shadow:0 0 10px #ae003d}
+.pricingTable .pricingTable-signup:hover{color:#ae003d;background:#fff;box-shadow:0 0 10px #ae003d,0 0 10px #000 inset}
+.pricingTable.blue .title{color:#005c99}
+.pricingTable.blue .pricingTable-signup{background:#005c99}
+.pricingTable.blue:hover .pricingTable-signup{box-shadow:0 0 10px #005c99}
+.pricingTable.blue .pricingTable-signup:hover{color:#005c99;background:#fff;box-shadow:0 0 10px #005c99,0 0 10px #000 inset}
+.pricingTable.red .title{color:#db2c29}
+.pricingTable.red .pricingTable-signup{background:#db2c29}
+.pricingTable.red:hover .pricingTable-signup{box-shadow:0 0 10px #db2c29}
+.pricingTable.red .pricingTable-signup:hover{color:#db2c29;background:#fff;box-shadow:0 0 10px #db2c29,0 0 10px #000 inset}
+@media only screen and (max-width:990px){.pricingTable{margin-bottom:30px}
+}
 
 
 
@@ -896,17 +860,6 @@ padding-left: 8px;
     font-size:200%;
     text-transform: uppercase;
   }
-
-  /*project*/
-  .box .imgBox img{
-    transition:.5s;
-  }
-}
-@media (max-width:480px){
- 
-
-
-
 }
 
 .contactForm .form-control{
