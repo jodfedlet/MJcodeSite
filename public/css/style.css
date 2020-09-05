@@ -660,7 +660,55 @@ h4{color:#444;
 }
 
 
+/* porfolio */
 
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.modalHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.portfolioModal {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background:none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+.modalfooter {
+  display: flex;
+  justify-content: center;
+  border-bottom: none;
+}
+
+.thumbnail img:hover {
+  box-shadow:0 0 10px var(--primary-color);
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9);
+
+}
 
 
 
