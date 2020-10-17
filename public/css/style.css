@@ -92,30 +92,46 @@ body{
 }
 
 /****** Navigation--*/
+nav{
+  position: fixed;
+}
+
+nav.sticky {
+  background-color: var(--secondary-color);
+  color: rgb(223, 213, 213);
+}
 .navbar {
-  font-weight:700;
-  font-size: .9rem;
+  font-weight:800;
   letter-spacing:.1rem;
-  background: rgba(0,0,0,0.6) !important;
   transition: .5s;
 }
 
-.navbar-brand img{
-  height:2rem;
-  font-family: 'PT Sans', sans-serif;
+.navbar-light .navbar-brand img {
+  height:50px;
+  width:150px;
+  margin: 2%;
+}
+
+.sticky .navbar-brand img {
+  height: 30px;
+  width: 75px;
+  transition: ease-in-out .9s;
 }
 
 .navbar-nav li{
   padding-right: .7rem; 
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link{
   color:white;
   padding-top: .8rem;
+  font-weight: bold;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover {
   color:#A52A2A;
+  transition: ease-in-out .6s;
+  border-bottom: 1px solid #A52A2A;
 }
 
 /*==========Carousel======*/
@@ -163,34 +179,31 @@ body{
 /*Animation*/
 
 .anim-typewriter {
-      animation: typewriter 4s steps(40) 1s 1 normal both,
-      blinkTextCursor 500ms steps(40) infinite normal;
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(40) infinite normal;
 }
 
 @keyframes typewriter {
-      from {
-            width: 0;
-      }
-      to {
-            width: 11em;
+  from {
+        width: 0;
+  }
+  to {
+        width: 11em;
 
 
-      }
+  }
 }
 
 @keyframes blinkTextCursor {
-      from {
-            border-right-color: rgba(255, 255, 255, 0.75);
+  from {
+        border-right-color: rgba(255, 255, 255, 0.75);
 
-      }
-      to {
-            border-right-color: transparent;
-  
-      }
+  }
+  to {
+        border-right-color: transparent;
 
+  }
 }
-
-
 
 .btn-danger{
   background-color: #8B0000;
@@ -205,8 +218,8 @@ body{
 
 /*==========About page=============*/
 .about-section{
-  background: url('../img/logheader.png') no-repeat left;
-  background-size: 50%;
+  background: url('../img/Logo.png') no-repeat left;
+  background-size: 49%;
   overflow: hidden;
   padding: 4% 0;
   margin-top: 2%;

@@ -156,3 +156,23 @@ $(document).ready(function(){
   });
 
 });
+
+
+$(window).on('scroll', function(){
+  if ($(window).scrollTop()){
+    $('nav').addClass('sticky');
+  } else{
+    $('nav').removeClass('sticky');
+  };
+
+  // scroll to top
+  if($(window).scrollTop()>300){
+      $('.fa-chevron-up').css({
+          "opacity":"1","pointer-events":"auto"
+      });
+  }else{
+    $('.fa-chevron-up').css({
+      "opacity":"0","pointer-events":"auto"
+    });
+  };
+});
