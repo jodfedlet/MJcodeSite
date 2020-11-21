@@ -20,7 +20,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="car">
-						<img class="card-img-top img-responsive rounded-circle" src="public/img/EcleProfil.png" >
+						<img class="card-img-top img-responsive" src="public/img/ecle.png" >
 						<div class="card-body">
 							<h4 class="card-title text-center">Eclesiaste Lucien</h4>
 							<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#Ecle">
@@ -34,7 +34,7 @@
 					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-body">
-								<p class="card-text"> Étudiant en <b>Science informatique</b>, 
+								<p class="card-text"> Étudiant en <b>Sciences informatiques</b>, 
 								<i> Développeur Front-end.
 									Programmeur :JAVASCRIPT & Nodejs.</i></P>
 							</div>
@@ -65,7 +65,7 @@
 					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-body">
-								<p class="card-text"> Etudiant en <b>Science informatique</b>, 
+								<p class="card-text"> Etudiant en <b>Sciences informatiques</b>, 
 									Data Scientist,
 								développeur back-end et ingénieur en logiciel.........</p>
 							</div>
@@ -87,7 +87,7 @@
 					<div class="modal-dialog modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-body">
-								<p class="card-text"> Etudiant en <b>Science informatique</b>, 							
+								<p class="card-text"> Etudiant en <b>Sciences informatiques</b>, 							
 								développeur front-end et Programmeur: JAVASCRIPT.........</p>
 							</div>
 							<div class="col-12 m-footer">

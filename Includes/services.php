@@ -9,17 +9,17 @@
       <div class="card">
         <div class="row">
           <div class="col-md-3">
-            <i class="fas fa-laptop-code img-responsive"></i>
+            <i class="fas fa-laptop-code "></i>
           </div>  
           <div class="col-md-9">
             <div class="card-body">
               <h2>Création de Site Internet</h2>
               <div class="heading-underline"></div>
               <p class="card-text">
-              <i>Vous n`etes pas un concepteur de sites Web,
+              <i>Vous n'êtes pas un concepteur de site Web,
               c'est là que MJcode entre en jeu. Nous facilitons le processus
               de créer un site Web, le rendant accessible à tous.
-              vous pouvez facilement lancer un site web professionnel</i>.
+              Vous pouvez avec nous facilement lancer un site web professionnel</i>.
               </p>
             </div>
           </div>

@@ -301,6 +301,10 @@ nav.sticky {
   width: 50%;
 }
 
+/*Desktop version*/
+
+
+
 /**Service Section **/
 .service-section{
   padding: 10px 10px;
@@ -606,6 +610,23 @@ border: 1px solid #8B0000;
   background: #8B0000;
 }
 
+#footer-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-contact ul{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.email{
+  border: 1px solid red;
+  float: left;
+}
+
 /*social*/
 .social-footer svg.svg-inline--fa{
   transition: transform .2s; /* Animation */
@@ -631,6 +652,9 @@ padding-left: 8px;
   text-align:center;
 }
 h4{color:#444;
+}
+.table-price a{
+  text-decoration:none;
 }
 .pricingTable{
   background:#fff;
