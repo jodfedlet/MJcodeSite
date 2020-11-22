@@ -5,7 +5,7 @@
 				<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div class="collapse navbar-collapse" id="navbarResponsive">
+		<div class="collapse navbar-collapse" id="navbarResponsive navbarSupportedContent">
 			<ul class="navbar-nav ml-auto active">
 				<li class="nav-item">
 					<a class="nav-link" href="/">Accueil</a>

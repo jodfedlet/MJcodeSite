@@ -301,7 +301,7 @@ nav.sticky {
   width: 50%;
 }
 
-/*Desktop version*/
+/*mobile version*/
 
 
 
@@ -911,9 +911,11 @@ h4{color:#444;
     display: none;
   }
 
+  
   .carousel-caption{
     top:30%;
   }
+
 
   .carousel-caption h1{
     font-size:100%;
@@ -921,7 +923,11 @@ h4{color:#444;
 
   .carousel-caption h3{
     font-size:80%;
-
+    display: none;
+  }
+  #slides a span{
+    border: 1px solid red;
+    display: none;
   }
 
   .carousel-caption .btn {
