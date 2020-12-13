@@ -5,10 +5,10 @@
         <div class="heading-underline"></div>
     </div>
     <!-- <a href="service.html#Web"> -->
-    <div class="col-md-4">
+    <div class="col-md-4 mb-6">
       <div class="card">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-lg-3">
             <i class="fas fa-laptop-code "></i>
           </div>  
           <div class="col-md-9">
@@ -28,7 +28,7 @@
     <!-- </a> -->
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-4 mb-6">
       <div class="card">
         <div class="row no-gutters">
           <div class="col-md-3">

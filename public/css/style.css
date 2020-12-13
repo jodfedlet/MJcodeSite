@@ -504,7 +504,11 @@ h3.heading{
 }
 
 h4{
-font-family: 'Permanent Marker', cursive;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+}
+h4.card-title.text-center{
+  padding:0px 0px;
 }
 
 
@@ -653,14 +657,13 @@ padding-left: 8px;
 }
 h4{color:#444;
 }
+
 .table-price a{
   text-decoration:none;
 }
 .pricingTable{
   background:#fff;
   border-radius:10px;
-  overflow:hidden;
-  position:relative;
   transition:all .3s ease 0s;
 }
 .pricingTable:hover{box-shadow:0 0 5px rgba(0,0,0,.8) inset,0 0 10px rgba(0,0,0,.8);
@@ -683,6 +686,7 @@ h4{color:#444;
   font-size:18px;
   color:rgba(0,0,0,.3);
   text-transform:capitalize;
+
 }
 .pricingTable .pricingTable-signup{display:inline-block;padding:8px 50px;background:#ae003d;border-radius:20px;font-size:20px;font-weight:600;color:#fff;text-transform:uppercase;position:relative;transition:all .3s ease 0s}
 .pricingTable:hover .pricingTable-signup{box-shadow:0 0 10px #ae003d}
