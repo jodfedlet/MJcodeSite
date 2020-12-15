@@ -13,7 +13,7 @@
 						<img class="card-img-top img-responsive" src="public/img/jodmj.png" >
 						<div class="card-body">
 							<h4 class="card-title text-center">Jod Fedlet Pierre</h4>
-							<b>CEO, co-founder</b> <br>
+							<b>CTO, co-founder</b> <br>
 							<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#jod">
 								Profile
 							</button>
@@ -26,7 +26,7 @@
 						<img class="card-img-top img-responsive" src="public/img/marck.png">
 						<div class="card-body">
 							<h4 class="card-title text-center">Marcknder R. Jn-Charles</h4>
-							<b>CEO, co-founder</b> <br>
+							<b>Co-founder</b> <br>
 							<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#marc">
 								Profile
 							</button>
@@ -85,8 +85,7 @@
 						<div class="modal-content">
 							<div class="modal-body">
 								<p class="card-text"> Etudiant en <b>Sciences informatiques</b>, 
-									Data Scientist,
-								développeur back-end et ingénieur en logiciel.........</p>
+								 ingénieur en logiciel.........</p>
 							</div>
 							<div class="col-12 m-footer">
 								<div class="heading-underline"></div>
@@ -107,7 +106,7 @@
 						<div class="modal-content">
 							<div class="modal-body">
 								<p class="card-text"> Etudiant en <b>Sciences informatiques</b>, 							
-								développeur front-end et Programmeur: JAVASCRIPT.........</p>
+								développeur front-end.........</p>
 							</div>
 							<div class="col-12 m-footer">
 								<div class="heading-underline"></div>
