@@ -13,7 +13,7 @@
 						<img class="card-img-top img-responsive" src="public/img/jodmj.png" >
 						<div class="card-body">
 							<h4 class="card-title text-center">Jod Fedlet Pierre</h4>
-							<b>CEO, co-founder</b> <br>
+							<b>CTO, co-founder</b> <br>
 							<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#jod">
 								Profile
 							</button>
@@ -26,7 +26,7 @@
 						<img class="card-img-top img-responsive" src="public/img/marck.png">
 						<div class="card-body">
 							<h4 class="card-title text-center">Marcknder R. Jn-chrles</h4>
-							<b>CEO, co-founder</b> <br>
+							<b>Co-founder</b> <br>
 							<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#marc">
 								Profile
 							</button>
@@ -39,7 +39,7 @@
 						<img class="card-img-top img-responsive" src="public/img/ecle.png" >
 						<div class="card-body">
 							<h4 class="card-title text-center">Eclesiaste Lucien</h4>
-							<b>HEAD OF FRONT-END DEV...</b> <br>
+							<b>Head of Front-End Dev...</b> <br>
 							<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#Ecle">
 								Profile
 							</button>
@@ -52,7 +52,7 @@
 						<img class="card-img-top img-responsive rounded-circle" src="public/img/padja.jpg">
 						<div class="card-body">
 							<h4 class="card-title text-center">Damas Serius</h4>
-							<b>HEAD OF DESIGN</b> <br>
+							<b>Head of Design</b> <br>
 							<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#Padja">
 								Profile
 							</button>
@@ -85,7 +85,7 @@
 						<div class="modal-content">
 							<div class="modal-body">
 								<p class="card-text"> Etudiant en <b>Sciences informatiques</b>, 
-									Data Scientist,
+									Administrateur de base de données,
 								développeur back-end et ingénieur en logiciel.........</p>
 							</div>
 							<div class="col-12 m-footer">
