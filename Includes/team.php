@@ -25,7 +25,11 @@
 					<div class="car">
 						<img class="card-img-top img-responsive" src="public/img/marck.png">
 						<div class="card-body">
+<<<<<<< HEAD
 							<h4 class="card-title text-center">Marcknder R. Jn-chrles</h4>
+=======
+							<h4 class="card-title text-center">Marcknder R. Jn-Charles</h4>
+>>>>>>> 64164cb5828f4ea7dfa40dadd83cef959e84e0df
 							<b>Co-founder</b> <br>
 							<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#marc">
 								Profile
@@ -85,8 +89,12 @@
 						<div class="modal-content">
 							<div class="modal-body">
 								<p class="card-text"> Etudiant en <b>Sciences informatiques</b>, 
+<<<<<<< HEAD
 									Administrateur de base de données,
 								développeur back-end et ingénieur en logiciel.........</p>
+=======
+								 ingénieur en logiciel.........</p>
+>>>>>>> 64164cb5828f4ea7dfa40dadd83cef959e84e0df
 							</div>
 							<div class="col-12 m-footer">
 								<div class="heading-underline"></div>
@@ -107,7 +115,7 @@
 						<div class="modal-content">
 							<div class="modal-body">
 								<p class="card-text"> Etudiant en <b>Sciences informatiques</b>, 							
-								développeur front-end et Programmeur: JAVASCRIPT.........</p>
+								développeur front-end.........</p>
 							</div>
 							<div class="col-12 m-footer">
 								<div class="heading-underline"></div>
