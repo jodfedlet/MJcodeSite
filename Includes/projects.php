@@ -20,7 +20,7 @@
             <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="40.4489">$ 500</text>
           </svg>
           <div class="pricing-content">
-            <h3 class="title">Systeme de gestion</h3>
+            <h3 class="title">Website /Blog</h3>
             <ul class="pricing-content">
                 <p>Hébergement gratuit</p>
                 <p>Assistance <b>7/7</b></p>
@@ -44,10 +44,10 @@
               </path>
             </g>
             <text transform="matrix(0.9566 0 0 1 197.3096 83.9121)" fill="#fff" font-size="15.0829"> A partir de</text>
-            <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="40.4489">$ 500</text>
+            <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="40.4489">$ 850</text>
           </svg>
           <div class="pricing-content">
-            <h3 class="title">Website /Blog</h3>
+            <h3 class="title">APP.<br> MOBILE</h3>
             <ul class="pricing-content">
                 <p>Hébergement gratuit</p>
                 <p>Assistance <b>7/7</b></p>
@@ -71,10 +71,10 @@
               </path>
             </g>
             <text transform="matrix(0.9566 0 0 1 197.3096 83.9121)" fill="#fff" font-size="15.0829"> A partir de</text>
-            <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="40.4489">$ 850</text>
+            <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="40.4489">$ 1200</text>
           </svg>
           <div class="pricing-content">
-            <h3 class="title">APP.<br> MOBILE</h3>
+            <h3 class="title">SYSTEME DE GESTION</h3>
             <ul class="pricing-content">
                 <p>Disponible Sur Play Store</p>
                 <p>Assistance <b>7/7</b></p>
@@ -98,7 +98,7 @@
               </path>
             </g>
             <text transform="matrix(0.9566 0 0 1 197.3096 83.9121)" fill="#fff" font-size="15.0829"> A partir de</text>
-            <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="40.4489">$ 1250</text>
+            <text transform="matrix(1 0 0 1 69.7256 116.2686)" fill="#fff" font-size="40.4489">$ 1800</text>
           </svg>
           <div class="pricing-content">
             <h3 class="title">E-COMMERCE et autres</h3>

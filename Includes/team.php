@@ -25,7 +25,7 @@
 					<div class="car">
 						<img class="card-img-top img-responsive" src="public/img/marck.png">
 						<div class="card-body">
-							<h4 class="card-title text-center">Marcknder R. Jn-chrles</h4>
+							<h4 class="card-title text-center">Marcknder R. Jn-Charles</h4>
 							<b>CEO, co-founder</b> <br>
 							<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#marc">
 								Profile
